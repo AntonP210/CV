@@ -80,7 +80,9 @@ hr {
     float: right;
     margin-left: 30px;
 }
-
+.row{
+    margin:0;
+}
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
@@ -174,7 +176,9 @@ hr {
     font-family: 'Russo One', sans-serif;
 
 }
-
+.container-fluid{
+    margin: -15px;
+}
 .btn-cntc {
     background: #97EAF7;
     background-image: -webkit-linear-gradient(top, #97EAF7, #742E99);
@@ -233,17 +237,25 @@ hr {
     .comp{
         position: static;
     }
+    .skill-row{
+        margin: 0;
+    }
     .body-text{
         width: auto;
     }
     h3{
         padding-left: 15px;
     }
-    .web-dev{
-        padding-right: 15px;
-    }
+    
     .unity{
         padding-left: 15px;
+        width: 15%;
+    }
+    .web-dev{
+        /* padding-right: 30px; */
+        margin-right: 200px;
+        width:15% ;
+        
     }
    
 }
