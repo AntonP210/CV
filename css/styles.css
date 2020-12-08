@@ -4,6 +4,7 @@ body {
     text-align: center;
     font-family: 'Russo One', sans-serif;
     padding: 0;
+    box-sizing: border-box;
 }
 
 p {
@@ -16,7 +17,7 @@ h1 {
     color: #ff003c;
     margin: 25px auto 0 auto;
     font-family: 'Bungee', cursive;
-    
+
 }
 
 h2 {
@@ -32,6 +33,7 @@ h2 {
 h3 {
     color: #97eaf7;
     font-size: large;
+    padding: 20px;
     font-family: 'Bungee', cursive;
 }
 
@@ -86,7 +88,6 @@ hr {
 }
 
 .topContainer {
-    /* background-color: #fdf800; */
     background-color: black;
     position: relative;
     padding-top: 50px;
@@ -148,27 +149,30 @@ hr {
     text-align: left;
     color: #201d64;
 }
+
 .social-icon {
     margin: 10px 10px;
     font-size: xx-large;
 }
-.social-icon:hover{
+
+.social-icon:hover {
     color: #ff003c;
 }
-.projects{
-    
-    color:#ff003c ;
+
+.projects {
+
+    color: #ff003c;
     text-shadow: none;
 }
-.neon
-{
-    /* text-shadow: 2px 2px #97eaf7; */
+
+.neon {
     text-shadow: 2px 2px #ff003c;
 }
-.heading-title{
+
+.heading-title {
     color: #fdf800;
     font-family: 'Russo One', sans-serif;
-    
+
 }
 
 .btn-cntc {
@@ -195,9 +199,9 @@ hr {
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
- 
- .btn-cntc:hover {
+}
+
+.btn-cntc:hover {
     border: solid #742E99 0;
     background: #B643A1;
     color: #ff003c;
@@ -210,10 +214,15 @@ hr {
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
- }
+}
 
 
 @media(max-width:1028px) {
+
+    .body {
+        overflow-x: hidden; 
+    }
+
     #title {
         text-align: center;
     }
@@ -221,10 +230,20 @@ hr {
     .icon {
         display: none;
     }
-
-    .container-fluid {
-
-        padding: 7% 15%;
-
+    .comp{
+        position: static;
     }
+    .body-text{
+        width: auto;
+    }
+    h3{
+        padding-left: 15px;
+    }
+    .web-dev{
+        padding-right: 15px;
+    }
+    .unity{
+        padding-left: 15px;
+    }
+   
 }
