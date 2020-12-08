@@ -1,8 +1,8 @@
 body {
-    color: #192c2D;
+    color: #b643a1;
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Russo One', sans-serif;
     padding: 0;
 }
 
@@ -13,38 +13,40 @@ p {
 
 h1 {
     font-size: 5.625rem;
-    color: #d72323;
+    color: #ff003c;
     margin: 25px auto 0 auto;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Bungee', cursive;
+    
 }
 
 h2 {
-    color: #d72323;
-    font-family: 'Roboto', sans-serif;
+    color: #742e99;
+    text-shadow: 2px 2px #97eaf7;
+    font-family: 'Bungee', cursive;
     font-size: 2.5rem;
-    font-weight: normal;
+    font-weight: 500;
     line-height: 2;
     padding-bottom: 10px;
 }
 
 h3 {
-    color: #397279;
+    color: #97eaf7;
     font-size: large;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bungee', cursive;
 }
 
 a {
-    color: #fffaa4;
-    font-family: 'Roboto', sans-serif;
+    color: #97eaf7;
+    font-family: 'Russo One', sans-serif;
     text-decoration: none;
 }
 
 a:hover {
-    color: #e7eae3;
+    color: #ff003c;
 }
 
 hr {
-    border: dotted #EAF6F6 6px;
+    border: dotted #742e99 6px;
     border-bottom: none;
     margin: 100px auto;
     width: 5%;
@@ -78,28 +80,27 @@ hr {
 }
 
 .skill-row {
-    /* border: solid; */
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
 }
 
 .topContainer {
-    background-color: #303841;
+    /* background-color: #fdf800; */
+    background-color: black;
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .midContainer {
-    background-color: #eeeeee;
+    background-color: #201d64;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* margin: 100px auto; */
 }
 
 .bottomContainer {
-    background-color: #303841;
+    background-color: #201d64;
     padding: 50px 0 20px;
 }
 
@@ -115,14 +116,14 @@ hr {
 }
 
 .footer-link {
-    color: #3eacc3;
+    color: #ff003c;
     font-family: 'Roboto', sans-serif;
     margin: 30px 10px;
     text-decoration: none;
 }
 
 .copyright {
-    color: #e7eae3;
+    color: #97eaf7;
     font-size: 0.75rem;
     padding: 20px 0;
 }
@@ -130,15 +131,88 @@ hr {
 .desc {
     padding: 25px;
 }
-.card{
+
+.card {
     padding: 24px;
 }
-.card-holder{
-    background-color: #eeeeee;
+
+.card-holder {
+    background-color: #201d64;
 }
-.inner-card{
-    background-color: #fecd1a;
+
+.inner-card {
+    background-color: #fdf800;
 }
+
+.card-text {
+    text-align: left;
+    color: #201d64;
+}
+.social-icon {
+    margin: 10px 10px;
+    font-size: xx-large;
+}
+.social-icon:hover{
+    color: #ff003c;
+}
+.projects{
+    
+    color:#ff003c ;
+    text-shadow: none;
+}
+.neon
+{
+    /* text-shadow: 2px 2px #97eaf7; */
+    text-shadow: 2px 2px #ff003c;
+}
+.heading-title{
+    color: #fdf800;
+    font-family: 'Russo One', sans-serif;
+    
+}
+
+.btn-cntc {
+    background: #97EAF7;
+    background-image: -webkit-linear-gradient(top, #97EAF7, #742E99);
+    background-image: -moz-linear-gradient(top, #97EAF7, #742E99);
+    background-image: -ms-linear-gradient(top, #97EAF7, #742E99);
+    background-image: -o-linear-gradient(top, #97EAF7, #742E99);
+    background-image: -webkit-gradient(to bottom, #97EAF7, #742E99);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #D3D3D3;
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    -webkit-box-shadow: 0 1px 20px 0 #000000;
+    -moz-box-shadow: 0 1px 20px 0 #000000;
+    box-shadow: 0 1px 20px 0 #000000;
+    text-shadow: 1px 1px 12px #000000;
+    /* border: solid #337FED 1px; */
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn-cntc:hover {
+    border: solid #742E99 0;
+    background: #B643A1;
+    color: #ff003c;
+    background-image: -webkit-linear-gradient(top, #B643A1, #742E99);
+    background-image: -moz-linear-gradient(top, #B643A1, #742E99);
+    background-image: -ms-linear-gradient(top, #B643A1, #742E99);
+    background-image: -o-linear-gradient(top, #B643A1, #742E99);
+    background-image: -webkit-gradient(to bottom, #B643A1, #742E99);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
 @media(max-width:1028px) {
     #title {
         text-align: center;
