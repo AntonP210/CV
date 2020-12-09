@@ -246,14 +246,16 @@ hr {
     h3{
         padding-left: 15px;
     }
-    
+    .pics{
+        padding-left: 225px;
+    }
     .unity{
         padding-left: 15px;
         width: 15%;
     }
     .web-dev{
-        /* padding-right: 30px; */
-        margin-right: 200px;
+        margin-right: 250px;
+        margin-left: 0;
         width:15% ;
         
     }
